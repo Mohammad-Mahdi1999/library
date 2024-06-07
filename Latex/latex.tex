@@ -1,0 +1,140 @@
+\documentclass{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+
+\geometry{a4paper, margin=1in}
+
+% Set up fancy headers and footers
+\pagestyle{fancy}
+\fancyhf{} % Clear existing headers and footers
+\rhead{\thepage} % Right-aligned page number
+\renewcommand{\headrulewidth}{0pt} % Remove header line
+\usepackage{comment}
+\begin{document}
+	
+	\begin{titlepage}
+		
+		\centering
+		\vspace*{2cm}
+		\textbf{\LARGE Navigating LaTeX: A Personal Journey}
+		\vspace{1cm}
+		
+		
+		
+		\vfill
+		
+		\textbf{M. Mahdi Farahbakhsh}
+		
+		\vspace{1cm}
+		\today
+	\end{titlepage}
+	
+	
+	\begin{center}
+		\textbf{In the Name of Allah}
+	\end{center}
+	
+		\section{Latex}
+	
+	
+	\begin{enumerate}
+		\item Preamble
+		\begin{itemize}
+			\item[--] 
+		\end{itemize}
+		
+		\item Body
+		\begin{itemize}
+			\item[--] Derivatives of \textit{Vanilla} Transformer :
+			\begin{itemize}
+				\item[*] BERT \cite{bert}
+				\item[*] BART \cite{BART}
+				\item[*] GPT \cite{gpt}
+				\item[*] Long-former \cite{Longformer}
+				\item[*] Transformer-XL \cite{Transformer-XL}
+				\item[*] XLNet \cite{XLNet}
+			\end{itemize}
+			\item[--] Transformers in different Domains:
+			\begin{itemize}
+				\item[*] in NLP domains: Dominated
+				\item[*] in visual domains: general pipeline is "CNN features + Strandard Transformer Encoder" 
+				\item[*] multimodal tasks :
+				\begin{itemize}
+					\item[+] VideoBERT : the first
+					\item[+] CLIP : new milestone 
+					\begin{itemize}
+						\item[@] IDK: uses multimodal pretraining to convert classification as retrieval task that enables the pretrained modals to tackles zero-shot recognition.
+					\end{itemize}
+					
+				\end{itemize}
+			\end{itemize}
+			\item[--] Multimodal Big Data
+			\begin{itemize}
+				\item[*] Data scales are larger : recently released datasets are million scales
+				\item[*] More modalities: vision, text, audio
+				\begin{itemize}
+					\item[+] Pono : audio-visual question answering
+				\end{itemize}
+				\item[*] More Application \& Scenarios
+				\item[*] Tasks are more difficult
+				\item[*] Instructional Videos
+				\begin{itemize}
+					\item[@] IDK: Transformers are data hungry, Therefore ,their high -capasity modals and multimodal Big Data basis co-created the prosperity of the Transformer based multimodal machine learning. 
+				\end{itemize}
+				\begin{itemize}
+					\item[+] VideoBERT : the first
+					\item[+] CLIP : new milestone 
+					\begin{itemize}
+						\item[@] IDK: uses multimodal pretraining to convert classification as retrieval task that enables the pretrained modals to tackles zero-shot recognition.
+					\end{itemize}
+				\end{itemize}
+			\end{itemize}
+		\end{itemize}
+		\item advantages
+		\begin{itemize}
+			\item[*] more general space
+			\begin{itemize}
+				\item[+] Vanilla transformers (self attention) can model any given tokenized input from any model.
+				\begin{itemize}
+					\item[>] compare with CNN: CNN is restricted in the aligned grid spaces/metrics
+				\end{itemize}
+			\end{itemize}
+			
+			
+		\end{itemize}
+		\item Vanilla Transformers
+		\begin{itemize}
+			\item[@] IDK: "position-wise" Fully-connected Feed Forward (FFN) 
+			\item[-] To help the back propagation of the gradient, both MHSA and FFN use Residual Connection(any mapping $f(.)$ is defined as $x \longleftarrow f(x) + x$)
+			
+			\item[-] $ Z \longleftarrow N(sublayer(Z) + Z) $
+			\begin{itemize}
+				\item[+] $Z$: Input tensor | sublayer output
+				\item[+] $sublayer$: FFN or MHSA
+				\item[+] Residual Connection is used.
+				\item[+] $N$ : normalization
+				\begin{itemize}
+					\item[+] BN
+					\item[+] LN
+					\item[@] Open Problem: post-normalization vs  pre-normalization 
+					\begin{itemize}
+						\item[>] Vanilla Transformation: post.
+						\item[>] mathematical perspective: pre. make more sense
+						\item[>] both theoretical research and experiment validation
+					\end{itemize}
+				\end{itemize}
+				
+			\end{itemize}
+			
+		\end{itemize}
+	\end{enumerate}
+	
+	\bibliographystyle{plain}
+	\bibliography{mybib}
+	
+\end{document}
+	

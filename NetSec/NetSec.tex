@@ -1,0 +1,143 @@
+\documentclass{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage[]{xepersian}
+\settextfont{XB Yas.ttf} 
+\geometry{a4paper, margin=1in}
+
+% Set up fancy headers and footers
+\pagestyle{fancy}
+\fancyhf{} % Clear existing headers and footers
+\rhead{\thepage} % Right-aligned page number
+\renewcommand{\headrulewidth}{0pt} % Remove header line
+\usepackage{comment}
+\begin{document}
+	
+	\begin{titlepage}
+		
+		\centering
+		\vspace*{2cm}
+		\textbf{\LARGE امنیت شبکه}
+		\vspace{1cm}
+		
+		
+		
+		\vfill
+		
+		\textbf{محمدمهدی فرح بخش}
+		
+		\vspace{1cm}
+		\today
+	\end{titlepage}
+	
+	
+	\begin{center}
+		\textbf{به نام خداوند بخشنده مهربان}
+	\end{center}
+	
+	\section{فصل 6: کد های تصدیق صحت پیام}
+	
+	\begin{itemize}
+		\item 
+		بعضی وقتا(در برخی کاربردها) صحت اهمیتش بالاتر از محرمانگی
+		\item 
+عملکرد ها برای تصدیق صحت پیام:
+			\begin{itemize}
+				 \item 
+				یک تابع تولید کننده 
+				$\leftarrow$
+				 عامل تصدیق پیام
+				 \item
+				 یک تابع وارسی
+				 $\leftarrow$
+				 چک کردن عامل تصدیق پیام
+				
+			\end{itemize}
+		\item 
+			از الگوریتم های رمزنگاری برای تصدیق صحت پیام می شه استفاده کرد اما:
+				\begin{itemize}
+					\item 
+					کارایی پایین
+					\item
+					 بررسی مفهوم بودن محتوی همواره آسان نیست
+					 	\begin{itemize}
+					 		\item 
+					 		نیاز به قالب استاندارد
+					 		\item 
+					 		نیاز به افزونگی
+					 		\item 
+					 		دوشواری خودکار سازی فرآیند تولید و وارسی
+					 	\end{itemize}
+				\end{itemize}
+		\item 
+			هدف رمزنگاری
+			$\leftarrow$
+			محرمانگیست نه صحت
+		\item 
+			کدهای تشخیص خطا:
+			\begin{itemize}
+				\item \lr{Parity (CRC-1 bit)}	
+					\begin{itemize}
+						\item 
+						تعداد 1 ها فرد بود یک دونه 1 اضافه می کنه
+					\end{itemize}
+				\item \lr{CRC-32 bit}
+					\begin{itemize}
+						\item 
+						قطعات 32 بیتی رو جمع می کنه
+					\end{itemize}
+			\end{itemize}
+		\item 
+		کد تشخیص کلید ندارد
+		$\leftarrow$
+		برای تشخیص نویز ( غیر عمدی و غیر هوشمند) ه حمله دشمن (عمدی و هوشمند)
+		\item 
+			بعضی وقتا(در برخی کاربردها) صحت اهمیتش بالاتر از محرمانگی
+		\item 
+			بعضی وقتا(در برخی کاربردها) صحت اهمیتش بالاتر از محرمانگی
+		\item 
+			بعضی وقتا(در برخی کاربردها) صحت اهمیتش بالاتر از محرمانگی
+		\item 
+			بعضی وقتا(در برخی کاربردها) صحت اهمیتش بالاتر از محرمانگی
+		\item 
+			بعضی وقتا(در برخی کاربردها) صحت اهمیتش بالاتر از محرمانگی
+		\item 
+			بعضی وقتا(در برخی کاربردها) صحت اهمیتش بالاتر از محرمانگی
+			
+	\end{itemize}
+	\subsection{سوال}
+	\begin{enumerate}
+		\item 
+		  آیا همیشه محرمانگی مهم است؟
+		\item 
+		  عملکرد های تصدیق صحت پیام کدوما هستن؟
+		  \item 
+		       از الگوریتم های رمزنگاری میشه استفاده کرد برای تصدیق صحت پیام؟
+		  
+		  \item 
+		 هدف رمزنگاری چیست؟
+		  \item 
+		  کدهای تشخیص خطا چیا هستن؟
+		  \item 
+		خطای بیرونی و خطای درونی؟؟
+		  \item 
+  کد تشخیص خطا امنه؟ چرا؟ مثال؟
+		  \item 
+کد های تصدیق صحت پیام
+		  \item 
+توضیح MAC ؟
+		  \item 
+توضیح CBC-MAC ؟ حمله؟ راه حل؟ حمله؟ راه حل؟
+		  \item 
+عملکرد های تصدیق صحت پیام کدوما هستن؟
+		  \item 
+عملکرد های تصدیق صحت پیام کدوما هستن؟
+		  \item 
+عملکرد های تصدیق صحت پیام کدوما هستن؟
+		  
+	\end{enumerate}
+\end{document}
