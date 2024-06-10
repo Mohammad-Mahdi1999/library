@@ -1,31 +1,31 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.31)  7 JUN 2024 15:22
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.7)  10 JUN 2024 15:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **NetSec.tex
 (./NetSec.tex
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-05-08>
+LaTeX2e <2024-06-01>
+L3 programming layer <2024-05-27>
 (c:/texlive/2024/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
+Document Class: report 2024/02/08 v1.4n Standard LaTeX document class
 (c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+File: size10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count185
-\c@chapter=\count186
-\c@section=\count187
-\c@subsection=\count188
-\c@subsubsection=\count189
-\c@paragraph=\count190
-\c@subparagraph=\count191
-\c@figure=\count192
-\c@table=\count193
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
+\c@part=\count190
+\c@chapter=\count191
+\c@section=\count192
+\c@subsection=\count193
+\c@subsubsection=\count194
+\c@paragraph=\count195
+\c@subparagraph=\count196
+\c@figure=\count197
+\c@table=\count198
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
 )
 (c:/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
+Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 
@@ -45,38 +45,38 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count194
-\Gm@cntv=\count195
-\c@Gm@tempcnt=\count196
-\Gm@bindingoffset=\dimen141
-\Gm@wd@mp=\dimen142
-\Gm@odd@mp=\dimen143
-\Gm@even@mp=\dimen144
-\Gm@layoutwidth=\dimen145
-\Gm@layoutheight=\dimen146
-\Gm@layouthoffset=\dimen147
-\Gm@layoutvoffset=\dimen148
+\Gm@cnth=\count199
+\Gm@cntv=\count266
+\c@Gm@tempcnt=\count267
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
 \Gm@dimlist=\toks20
 )
 (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
 (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
 (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 107.
+Package graphics Info: Driver file: xetex.def on input line 106.
 
 (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen149
-\Gin@req@width=\dimen150
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
 )
 (c:/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-05-23 v7.01i Hypertext links for LaTeX
@@ -119,19 +119,19 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count197
+\c@section@level=\count268
 )
 (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count198
+\etb@tempcnta=\count269
 )
 (c:/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen151
-\Hy@linkcounter=\count199
-\Hy@pagecounter=\count266
+\@linkdim=\dimen152
+\Hy@linkcounter=\count270
+\Hy@pagecounter=\count271
 
 (c:/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-05-23 v7.01i Hyperref: PDFDocEncoding definition (HO)
@@ -139,7 +139,7 @@ File: pd1enc.def 2024-05-23 v7.01i Hyperref: PDFDocEncoding definition (HO)
 (c:/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count267
+\Hy@SavedSpaceFactor=\count272
 
 (c:/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-05-23 v7.01i Hyperref: PDF Unicode definition (HO)
@@ -151,14 +151,14 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count268
+\c@Hy@tempcnt=\count273
 
 (c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip16
+\Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen152
+\XeTeXLinkMargin=\dimen153
 
 (c:/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -167,9 +167,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count269
-\Field@Width=\dimen153
-\Fld@charsize=\dimen154
+\Fld@menulength=\count274
+\Field@Width=\dimen154
+\Fld@charsize=\dimen155
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -182,19 +182,19 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count270
-\c@Item=\count271
-\c@Hfootnote=\count272
+\Hy@abspage=\count275
+\c@Item=\count276
+\c@Hfootnote=\count277
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
 (c:/texlive/2024/texmf-dist/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2024-05-23 v7.01i Hyperref driver for XeTeX
-\pdfm@box=\box51
-\c@Hy@AnnotLevel=\count273
-\HyField@AnnotCount=\count274
-\Fld@listcount=\count275
-\c@bookmark@seq@number=\count276
+\pdfm@box=\box52
+\c@Hy@AnnotLevel=\count278
+\HyField@AnnotCount=\count279
+\Fld@listcount=\count280
+\c@bookmark@seq@number=\count281
 
 (c:/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -210,20 +210,20 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip50
+\Hy@SectionHShift=\skip51
 )
 (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2024/04/23 v4.2 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip51
-\f@nch@O@elh=\skip52
-\f@nch@O@erh=\skip53
-\f@nch@O@olh=\skip54
-\f@nch@O@orh=\skip55
-\f@nch@O@elf=\skip56
-\f@nch@O@erf=\skip57
-\f@nch@O@olf=\skip58
-\f@nch@O@orf=\skip59
+\f@nch@headwidth=\skip52
+\f@nch@O@elh=\skip53
+\f@nch@O@erh=\skip54
+\f@nch@O@olh=\skip55
+\f@nch@O@orh=\skip56
+\f@nch@O@elf=\skip57
+\f@nch@O@erf=\skip58
+\f@nch@O@olf=\skip59
+\f@nch@O@orf=\skip60
 )
 (c:/texlive/2024/texmf-dist/tex/xelatex/xepersian/xepersian.sty
 Package: xepersian 2023/08/30 v25.0 (Release Women, Life, and Freedom) Persian 
@@ -232,14 +232,14 @@ typesetting in XeLaTeX
 (c:/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.sty
 (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-05-08 L3 programming layer (loader) 
+Package: expl3 2024-05-27 L3 programming layer (loader) 
 
 (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
-\g__graphics_track_int=\count277
-\l__pdf_internal_box=\box52
-\g__pdf_backend_annotation_int=\count278
-\g__pdf_backend_link_int=\count279
+\g__graphics_track_int=\count282
+\l__pdf_internal_box=\box53
+\g__pdf_backend_annotation_int=\count283
+\g__pdf_backend_link_int=\count284
 ))
 Package: xparse 2024-05-08 L3 Experimental document command parser
 )
@@ -248,20 +248,20 @@ Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
 (c:/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count280
-\l__fontspec_language_int=\count281
-\l__fontspec_strnum_int=\count282
-\l__fontspec_tmp_int=\count283
-\l__fontspec_tmpa_int=\count284
-\l__fontspec_tmpb_int=\count285
-\l__fontspec_tmpc_int=\count286
-\l__fontspec_em_int=\count287
-\l__fontspec_emdef_int=\count288
-\l__fontspec_strong_int=\count289
-\l__fontspec_strongdef_int=\count290
-\l__fontspec_tmpa_dim=\dimen155
-\l__fontspec_tmpb_dim=\dimen156
-\l__fontspec_tmpc_dim=\dimen157
+\l__fontspec_script_int=\count285
+\l__fontspec_language_int=\count286
+\l__fontspec_strnum_int=\count287
+\l__fontspec_tmp_int=\count288
+\l__fontspec_tmpa_int=\count289
+\l__fontspec_tmpb_int=\count290
+\l__fontspec_tmpc_int=\count291
+\l__fontspec_em_int=\count292
+\l__fontspec_emdef_int=\count293
+\l__fontspec_strong_int=\count294
+\l__fontspec_strongdef_int=\count295
+\l__fontspec_tmpa_dim=\dimen156
+\l__fontspec_tmpb_dim=\dimen157
+\l__fontspec_tmpc_dim=\dimen158
 
 (c:/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -269,43 +269,43 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 (c:/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 (c:/texlive/2024/texmf-dist/tex/xelatex/xepersian/xepersian-persiancal.sty
 Package: xepersian-persiancal 2012/07/25 v0.2 provides Persian calendar
-\XePersian@i=\count291
-\XePersian@y=\count292
-\XePersian@m=\count293
-\XePersian@d=\count294
-\XePersian@latini=\count295
-\XePersian@persiani=\count296
-\XePersian@latinii=\count297
-\XePersian@persianii=\count298
-\XePersian@latiniii=\count299
-\XePersian@persianiii=\count300
-\XePersian@latiniv=\count301
-\XePersian@persianiv=\count302
-\XePersian@latinv=\count303
-\XePersian@persianv=\count304
-\XePersian@latinvi=\count305
-\XePersian@persianvi=\count306
-\XePersian@latinvii=\count307
-\XePersian@persianvii=\count308
-\XePersian@latinviii=\count309
-\XePersian@persianviii=\count310
-\XePersian@latinix=\count311
-\XePersian@persianix=\count312
-\XePersian@latinx=\count313
-\XePersian@persianx=\count314
-\XePersian@latinxi=\count315
-\XePersian@persianxi=\count316
-\XePersian@latinxii=\count317
-\XePersian@persianxii=\count318
-\XePersian@persianxiii=\count319
-\XePersian@temp=\count320
-\XePersian@temptwo=\count321
-\XePersian@tempthree=\count322
-\XePersian@yModHundred=\count323
-\XePersian@thirtytwo=\count324
-\XePersian@dn=\count325
-\XePersian@sn=\count326
-\XePersian@mminusone=\count327
+\XePersian@i=\count296
+\XePersian@y=\count297
+\XePersian@m=\count298
+\XePersian@d=\count299
+\XePersian@latini=\count300
+\XePersian@persiani=\count301
+\XePersian@latinii=\count302
+\XePersian@persianii=\count303
+\XePersian@latiniii=\count304
+\XePersian@persianiii=\count305
+\XePersian@latiniv=\count306
+\XePersian@persianiv=\count307
+\XePersian@latinv=\count308
+\XePersian@persianv=\count309
+\XePersian@latinvi=\count310
+\XePersian@persianvi=\count311
+\XePersian@latinvii=\count312
+\XePersian@persianvii=\count313
+\XePersian@latinviii=\count314
+\XePersian@persianviii=\count315
+\XePersian@latinix=\count316
+\XePersian@persianix=\count317
+\XePersian@latinx=\count318
+\XePersian@persianx=\count319
+\XePersian@latinxi=\count320
+\XePersian@persianxi=\count321
+\XePersian@latinxii=\count322
+\XePersian@persianxii=\count323
+\XePersian@persianxiii=\count324
+\XePersian@temp=\count325
+\XePersian@temptwo=\count326
+\XePersian@tempthree=\count327
+\XePersian@yModHundred=\count328
+\XePersian@thirtytwo=\count329
+\XePersian@dn=\count330
+\XePersian@sn=\count331
+\XePersian@mminusone=\count332
 )
 (c:/texlive/2024/texmf-dist/tex/xelatex/xepersian/xepersian-mathdigitspec.sty
 Package: xepersian-mathdigitspec 2022/05/20 v1.2.0 Unicode Persian math digits 
@@ -346,17 +346,17 @@ etting in plain TeX and LaTeX
 Package: biditools 2022/06/15 v2.3 Programming tools for bidi package
 \@bidi@envbody=\toks21
 \@bidi@emptytoks=\toks22
-\bidi@poscount=\count328
-\bidi@tempcountb=\count329
+\bidi@poscount=\count333
+\bidi@tempcountb=\count334
 \bidi@temptoksa=\toks23
 \bidi@temptoksb=\toks24
-\bidi@dummies=\count330
+\bidi@dummies=\count335
 \bidi@are@these@correct=\toks25
 \bidi@toks@lista=\toks26
 \bidi@toks@listb=\toks27
-\bidi@stack@length=\count331
+\bidi@stack@length=\count336
 \bidi@empty@stack=\toks28
-\bidi@looprepeat@depth=\count332
+\bidi@looprepeat@depth=\count337
 )
 (c:/texlive/2024/texmf-dist/tex/latex/zref/zref-abspage.sty
 Package: zref-abspage 2023-09-14 v2.35 Module abspage for zref (HO)
@@ -374,7 +374,7 @@ Package zref Info: New property list: main on input line 767.
 Package zref Info: New property: default on input line 768.
 Package zref Info: New property: page on input line 769.
 )
-\c@abspage=\count333
+\c@abspage=\count338
 Package zref Info: New property: abspage on input line 67.
 )
 (c:/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -385,7 +385,7 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks29
 \XKV@tempa@toks=\toks30
 )
-\XKV@depth=\count334
+\XKV@depth=\count339
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \@bidi@copyins@=\insert252
@@ -394,12 +394,12 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 File: latex-xetex-bidi.def 2022/07/04 v1.4.9 bidi adaptations for `latex.ltx' f
 or XeTeX engine
 \bidi@n@everypar=\toks31
-\bidi@column@check@number=\count335
+\bidi@column@check@number=\count340
 
 (c:/texlive/2024/texmf-dist/tex/xelatex/bidi/footnote-xetex-bidi.def
 File: footnote-xetex-bidi.def 2023/01/18 v1.2 bidi footnote macros for XeTeX en
 gine
-\c@footdir@label=\count336
+\c@footdir@label=\count341
 \footdir@toks=\toks32
 )
 (c:/texlive/2024/texmf-dist/tex/xelatex/bidi/report-xetex-bidi.def
@@ -426,7 +426,7 @@ kage for XeTeX engine
 File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
  last package loaded
 )
-\bidi@digits=\count337
+\bidi@digits=\count342
 \bidi@digits@charclass=\XeTeXcharclass1
 \bidi@sepmark@charclass=\XeTeXcharclass2
 )
@@ -455,9 +455,9 @@ File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
 * Primary author of xepersian package: Vafa Khalighi.
 * 
 ****************************************************
-\xepersian@tcl=\count338
-\xepersian@ilg=\dimen158
-\xepersian@strutilg=\dimen159
+\xepersian@tcl=\count343
+\xepersian@ilg=\dimen159
+\xepersian@strutilg=\dimen160
 (c:/texlive/2024/texmf-dist/tex/xelatex/xepersian/loadingorder-xepersian.def
 File: loadingorder-xepersian.def 2018/09/29 v0.5 making sure that xepersian is 
 the last package loaded
@@ -618,38 +618,49 @@ Package hyperref Info: Link coloring OFF on input line 18.
 LaTeX Font Warning: Font shape `TU/XBYas.ttf(0)/b/n' undefined
 (Font)              using `TU/XBYas.ttf(0)/m/n' instead on input line 24.
 
+
+
 [1
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 52.
+(Font)              <7> on input line 115.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 52.
+(Font)              <5> on input line 115.
+
+
+[1]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 129.
+(Font)              <12> on input line 192.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 129.
+(Font)              <8> on input line 192.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 129.
- [1] [2] [3] (./NetSec.aux)
+(Font)              <6> on input line 192.
+
+
+[2]
+
+[3]
+
+[4] (./NetSec.aux)
  ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-05-08>
+LaTeX2e <2024-06-01>
+L3 programming layer <2024-05-27>
  ***********
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `NetSec.out' has not changed.
-(rerunfilecheck)             Checksum: 6BE618D43C89648FA165691B87ED9533;356.
+(rerunfilecheck)             Checksum: 6CFDDD83823C9BDF96FE0B4174103E21;656.
  ) 
 Here is how much of TeX's memory you used:
- 13549 strings out of 474648
- 273249 string characters out of 5758603
- 1933559 words of memory out of 5000000
- 35624 multiletter control sequences out of 15000+600000
+ 13523 strings out of 474255
+ 272819 string characters out of 5746272
+ 1934546 words of memory out of 5000000
+ 35991 multiletter control sequences out of 15000+600000
  561325 words of font info for 66 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,11n,107p,1316b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,11n,107p,1316b,531s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on NetSec.pdf (4 pages).
+Output written on NetSec.pdf (5 pages).
