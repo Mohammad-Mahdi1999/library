@@ -1,0 +1,133 @@
+	\documentclass{report}
+	\usepackage[utf8]{inputenc}
+	\usepackage{geometry}
+	\usepackage{graphicx}
+	\usepackage{hyperref}
+	\usepackage{fancyhdr}
+	\usepackage[]{xepersian}
+	\settextfont{XB Yas.ttf}
+	\geometry{a4paper, margin=1in}
+	
+	% Set up fancy headers and footers
+	\pagestyle{fancy}
+	\fancyhf{} % Clear existing headers and footers
+	\rhead{\thepage} % Right-aligned page number
+	\renewcommand{\headrulewidth}{0pt} % Remove header line
+	\begin{document}
+		\begin{titlepage}
+			
+			\centering
+			\vspace*{2cm}
+			\textbf{\LARGE گزارش مقاله}
+			
+			\textbf{\LARGE \lr{"A Transformer-based network intrusion
+					detection approach for cloud security"}}
+			\vspace{1cm}
+			
+			
+			
+			\vfill
+			
+			\textbf{امنیت شبکه : دکتر اصغریان}
+			
+			\textbf{محمدمهدی فرح بخش}
+			
+			\vspace{1cm}
+			\today
+		\end{titlepage}
+		\begin{center}
+			\textbf{به نام خداوند بخشنده مهربان}
+		\end{center}
+		
+		\section{مقدمه}
+		با گسترش اهمیت رایانش ابری بین ذی نفعان دنیای نرم افزار، لزوم تأمین  امنیت آن  بیش از پیش موضوعیت پیدا کرده است. با توجه به این که ابزار های وارسی و تشخیص ترافیک غیر عادی در شبکه به طور قطعی قادر به ایفای نقش در این زمینه نیستند، لزوم استفاده از الگوریتم های ماشین لرنینگ جهت یادگیری و پیشبینی انواع نفوذ مورد توجه قرار گرفته است. 
+		
+		مدل های ترنسفورمر (Transformer) در مسائلی که ترتیب داده اهمیت دارد گوی سبقت را از رقبای خود از جمله
+		 RNN
+		 و
+		 CNN
+		  ربوده است. در مقاله
+		  \lr{"A Transformer-based network intrusion
+		  	detection"} \cite{Transformer_based_network_intrusion_detection}
+		  	به صورت تجربی توانایی شبکه Transformer در تشخیص انواع نفوذ مورد آزمایش قرار گرفته است.
+
+		\section{رایانش ابری}
+		از مزایای استفاده از ابر که باعث همه گیری آن شده عبارت است از:
+			\begin{enumerate}
+				\item 
+				On demand
+				\item 
+				دسترسی آسان از شبکه
+				\item 
+				استخر منابع محاسباتی که باعث می شود ارائه و آزاد سازی اونها با کمترین اعمال مدیریت انجام شود.
+			\end{enumerate}
+		
+		\subsection{امنیت ابر}
+			عدم توانایی شناسایی قطعی آنها توسط ابزار های ؟؟، از دلایل در معرض خطر قرار گرفتن ابر در برابر نفوذ ها می باشد.از جمله حملاتی که امنیت ابر را تهدید می کند می توان به موارد زیر اشاره کرد:
+			
+			\begin{enumerate}
+				\item
+					\lr{ IP Spoofing}
+				\item 
+					\lr{Routeing Information Protocol}
+				\item 
+					\lr{Man in The Middle Attack}
+				\item 
+					\lr{Port Scanning}
+				\item
+					\lr{Insider Attack}
+				\item Dos
+				\item DDos
+			\end{enumerate}
+			
+			
+		\section{
+		شبکه های عصبی عمیق
+		}
+			به تحقیق، عملکرد شبکه های عصبی عمیق محدود به داده های آموزشی هستند، از این رو محدودیت هایی در بکارگیری در تشخیص نوع نفوذ خواهند داشت.
+			
+			ایده شبکه های Transformer بر مبنای پیش آموزش (pretrain) به صورت عمومی برروی دیتای بزرگ و سپس آموزش اختصاصی برای یادگیری یک تسک مشخص  با حجم کمتر از نظر داده می باشد. این امر باعث می شود مدل در تشخیص داده هایی که با داده های آموزش تفاوت داشتند نیز تا حد زیادی بهتر عمل کنند.
+			
+			\subsection{شبکه های بازگشتی}
+			تشخیص نوع نفوذ با بررسی سریالی از پکت ها امکان پذیر است. شبکه های عصبی بازگشتی توانایی بررسی داده های sequential را دارا می باشند اما مشکلاتی نیز گریبان گیر آنهاست:
+			\begin{center}
+				\begin{table}[h!]
+%					\centering
+					\caption{}
+					\label{tab:my_label} % For referencing the table in your text
+					\begin{tabular}{ |p{2cm}|p{7cm}|p{4cm}| }
+						\hline
+						 & RNN & LSTM \\
+						\hline
+						مزایا & 
+						قابلیت یادگیری از روی داده های سری زمانی &
+						طولانی تر کردن مدت محوشدگی گرادیان \\
+						\hline
+						معایب & 
+						\begin{itemize}
+							\item نیاز به زمان زیاد برای یادگیری
+							\item عدم امکان موازی سازی
+							\item ضعف در همگرایی 
+							\item محو شدگی گرادیان
+							\item عدم توانایی حفظ یادگیری در بازه های زمانی طولانی
+						\end{itemize}
+						
+						&
+						همچنان مشکلات RNN رو داراست. \\
+						\hline
+					  \end{tabular}
+				\end{table}
+				
+				
+				
+				
+				
+				
+			\end{center}
+			
+			  
+		\lr{
+			\bibliographystyle{plain}
+			\bibliography{mybib}
+		}
+	\end{document}

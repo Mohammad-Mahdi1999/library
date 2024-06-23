@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.7)  13 JUN 2024 10:59
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.7)  13 JUN 2024 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**NetSec.tex
-(./NetSec.tex
+**Report.tex
+(./Report.tex
 LaTeX2e <2024-06-01>
 L3 programming layer <2024-05-27>
 (c:/texlive/2024/texmf-dist/tex/latex/base/report.cls
@@ -541,38 +541,34 @@ Package fontspec Info:
 g=persian-tex-text;"
 
 
-(c:/texlive/2024/texmf-dist/tex/latex/comment/comment.sty
-\CommentStream=\write3
+(./Report.aux)
+\openout1 = `Report.aux'.
 
-Excluding comment 'comment') (./NetSec.aux)
-\openout1 = `NetSec.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-8.
-
-(c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
+6.
+ (c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -608,40 +604,52 @@ LaTeX Font Info:    ... okay on input line 18.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 18.
-(./NetSec.out) (./NetSec.out)
-\@outlinefile=\write4
-\openout4 = `NetSec.out'.
+Package hyperref Info: Link coloring OFF on input line 16.
+(./Report.out) (./Report.out)
+\@outlinefile=\write3
+\openout3 = `Report.out'.
 
 
 
 LaTeX Font Warning: Font shape `TU/XBYas.ttf(0)/b/n' undefined
-(Font)              using `TU/XBYas.ttf(0)/m/n' instead on input line 24.
+(Font)              using `TU/XBYas.ttf(0)/m/n' instead on input line 21.
 
 
 
 [1
 
 ]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 98.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 98.
+
+Underfull \hbox (badness 1102) in paragraph at lines 104--105
+[][]\TU/XBYas.ttf(0)/b/n/10 طولانی تر کردن مدت محوشدگی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+[][]\TU/XBYas.ttf(0)/b/n/10 همچنان مشکلات RNN رو[]
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./Report.bbl
 
 [1]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 128.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 128.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 205.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 205.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 205.
+
+[2])
+\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 132--133
+[][] []
+ []
 
 
-[2]
 
-[3]
+[3
 
-[4] (./NetSec.aux)
+] (./Report.aux)
  ***********
 LaTeX2e <2024-06-01>
 L3 programming layer <2024-05-27>
@@ -650,16 +658,16 @@ L3 programming layer <2024-05-27>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `NetSec.out' has not changed.
-(rerunfilecheck)             Checksum: 6CFDDD83823C9BDF96FE0B4174103E21;656.
+Package rerunfilecheck Info: File `Report.out' has not changed.
+(rerunfilecheck)             Checksum: 26CEF9F0E5CE884A9C66D856F60AEC24;745.
  ) 
 Here is how much of TeX's memory you used:
- 13523 strings out of 474255
- 272819 string characters out of 5746272
+ 13473 strings out of 474255
+ 272252 string characters out of 5746272
  1934546 words of memory out of 5000000
- 35991 multiletter control sequences out of 15000+600000
- 561325 words of font info for 66 fonts, out of 8000000 for 9000
+ 35947 multiletter control sequences out of 15000+600000
+ 558613 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,11n,107p,1316b,424s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,13n,107p,1317b,400s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on NetSec.pdf (5 pages).
+Output written on Report.pdf (4 pages).
